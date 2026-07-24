@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://app.vanta.com/buildvision/trust/k1bpvqksk594v6u1f1fbm8
+url: https://app.vanta.com/buildvision/trust/k1bpvqksk594v6u1f1fbm8
+platform: Vanta
+certifications:
+- SOC 2 Type 2
+compliance_program: >-
+  BuildVision publishes its security and compliance posture through a Vanta-hosted
+  Trust Center. The Help Center and site footer both link to the Vanta portal and
+  document SOC 2 Type 2 compliance. The portal itself is a JavaScript single-page
+  app, so certifications beyond SOC 2 Type 2 could not be read programmatically;
+  only the SOC 2 Type 2 claim is recorded here as verified.
+evidence:
+- source: https://www.buildvision.io/help
+  kind: help-center-compliance-statement
+  detail: "SOC 2 Type 2 compliance documentation via Vanta"
+- source: https://www.buildvision.io/
+  kind: footer-link
+  detail: links to app.vanta.com/buildvision/trust Trust Center

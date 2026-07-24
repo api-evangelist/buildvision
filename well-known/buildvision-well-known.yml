@@ -1,0 +1,48 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* across BuildVision hosts
+note: >-
+  No .well-known discovery documents are published. buildvision.io redirects
+  every /.well-known/* path (301) to the www single-page app, which returns the
+  HTML shell (404 for the canonical www paths). app.buildvision.io returns 404
+  and api.buildvision.io does not resolve. Recorded as honest, expected empties.
+hosts:
+- host: https://buildvision.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+- host: https://www.buildvision.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+- host: https://app.buildvision.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+- host: https://api.buildvision.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 000
+    file: null
+    note: host does not resolve

@@ -1,8 +1,29 @@
 aid: buildvision
 name: Buildvision
-description: 'Buildvision is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  BuildVision is an AI bid-management and equipment-procurement platform for the
+  construction industry. It monitors email inboxes and construction plan rooms for
+  incoming bids, extracts equipment specifications from construction documents,
+  matches them against a company's line card, and drafts quotes with automatic
+  conflict detection and RFI generation. Products span bid triage automation, a
+  "spec memory" of historical engineer data, equipment quoting, and channel
+  intelligence for OEMs. BuildVision integrates with Microsoft Outlook and
+  BuildingConnected and offers direct API / browser-agent integration to selection
+  software by request, but publishes no public developer API, OpenAPI, or SDK.
+  Surfaced as a portfolio company of Norwest Venture Partners and enriched by the
+  API Evangelist pipeline from BuildVision's public surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.buildvision.io/og-image-home.svg
 url: https://raw.githubusercontent.com/api-evangelist/buildvision/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Construction
+- Construction Technology
+- Procurement
+- Bid Management
+- Equipment
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://buildvision.io
+  url: https://www.buildvision.io/
+- type: Documentation
+  url: https://www.buildvision.io/help
+- type: Support
+  url: https://www.buildvision.io/help
+- type: Blog
+  url: https://www.buildvision.io/blog
+- type: Login
+  url: https://app.buildvision.io/login
+- type: PrivacyPolicy
+  url: https://app.buildvision.io/privacy-policy
+- type: TermsOfService
+  url: https://app.buildvision.io/terms-of-service
+- type: TrustCenter
+  url: https://app.vanta.com/buildvision/trust/k1bpvqksk594v6u1f1fbm8
+- type: Compliance
+  url: https://app.vanta.com/buildvision/trust/k1bpvqksk594v6u1f1fbm8
+- type: DomainSecurity
+  url: security/buildvision-domain-security.yml
+- type: WellKnown
+  url: well-known/buildvision-well-known.yml
+- type: LLMsTxt
+  url: llms/buildvision-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
