@@ -12,6 +12,17 @@ description: >-
   software by request, but publishes no public developer API, OpenAPI, or SDK.
   Surfaced as a portfolio company of Norwest Venture Partners and enriched by the
   API Evangelist pipeline from BuildVision's public surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
